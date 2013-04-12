@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>WebRTC PeerConnection</title>
+    <link rel="stylesheet" href="../css/site.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <video id="pc1_video" autoplay="true" muted="true" controls></video>
+      <video id="pc2_video" autoplay="true" controls></video>
+    </div>
+    <script type="application/dart" src="local_peer_tutorial.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
