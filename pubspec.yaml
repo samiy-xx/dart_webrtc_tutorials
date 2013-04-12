@@ -1,0 +1,9 @@
+name: sample_pubspec
+description: A sample application
+dependencies:
+  unittest: any
+  browser: any
+
+#dependencies:
+#  js: any
+#  unittest: any
