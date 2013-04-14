@@ -4,9 +4,12 @@
   <head>
     <title>remote_peer_tutorial</title>
   </head>
- 
-  <body>   
-    <p id="text"></p>
+
+  <body>
+    <div id="video_container">
+      <video id="local_video" autoplay="true" controls></video>
+      <video id="remote_video" autoplay="true" controls></video>
+    </div>
     <script type="application/dart" src="remote_peer_tutorial.dart"></script>
     <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
     <script src="packages/browser/dart.js"></script>
